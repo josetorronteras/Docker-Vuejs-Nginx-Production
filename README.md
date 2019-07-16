@@ -1,29 +1,8 @@
-# example
+# Docker-Vuejs-Nginx-Production
 
-## Project setup
-```
-yarn install
-```
+https://hub.docker.com/r/joseew/vuejs-nginx-production
 
-### Compiles and hot-reloads for development
 ```
-yarn run serve
+docker pull joseew/vuejs-nginx-production
+docker run -e PORT=80 -p 8080:80 joseew/vuejs-nginx-production
 ```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
